@@ -126,7 +126,7 @@ export default function Footer() {
             />
           </a>
         </div>
-        <div className="flex flex-col border border-gray-2 p-4 lg:flex-row justify-center lg:justify-start max-lg:mx-auto w-[366px] gap-12 lg:gap-16">
+        <div className="flex flex-col border border-gray-2 p-4 rounded-md lg:flex-row justify-center lg:justify-start max-lg:mx-auto w-[366px] gap-12 lg:gap-16">
           <div className="lg:col-span-4 space-y-8 flex flex-col items-center w-full lg:items-start justify-center lg:justify-start mx-auto lg:mx-0">
             <div className="space-y-2 w-full flex flex-col items-center lg:items-start">
               <p className="text-base text-muted text-center mb-6">
