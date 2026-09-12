@@ -28,13 +28,12 @@ export default function Navbar() {
             className="flex gap-2 items-center text-2xl lg:text-3xl font-extrabold text-slate-900"
           >
             <Image
-              className="size-11"
-              width={30}
+              className="w-36 lg:w-43"
+              width={170}
               height={30}
               src={"/logo.svg"}
               alt="logo"
             />
-            Seaone Synergy
           </a>
           <div className="hidden lg:flex items-center gap-6 text-sm lg:text-base font-medium text-muted">
             {navLinks.map((link, index) => (

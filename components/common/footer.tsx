@@ -120,7 +120,7 @@ export default function Footer() {
             <img
               width={55}
               height={55}
-              src="/logo.svg"
+              src="/footer-logo.svg"
               alt="logo"
               className="object-cover select-none p-6 pointer-events-none w-full rounded-md"
             />
