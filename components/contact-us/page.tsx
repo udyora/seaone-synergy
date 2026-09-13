@@ -19,8 +19,8 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Mail Us",
-    value: "contact@seaonesynergy.com",
-    href: "mailto:contact@seaonesynergy.com",
+    value: "contact@seaonefintech.com",
+    href: "mailto:contact@seaonefintech.com",
   },
   {
     icon: Phone,
@@ -34,8 +34,8 @@ const contactDetails = [
   {
     icon: Globe,
     label: "Website",
-    value: "seaonesynergy.com",
-    href: "https://seaonesynergy.com",
+    value: "seaonefintech.com",
+    href: "https://seaonefintech.com",
   },
 ];
 
@@ -69,7 +69,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Seaone Synergy Location"
+              title="Seaone Fintech Location"
             />
           </motion.div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">

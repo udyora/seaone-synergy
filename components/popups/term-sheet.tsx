@@ -9,11 +9,11 @@ interface TermsModalProps {
 const SECTIONS = [
   {
     title: "About These Terms",
-    body: "These Terms & Conditions govern your use of the Seaone Synergy website and any consultation, enquiry, or loan-facilitation service you request through it. By submitting your details or booking a consultation, you agree to these terms.",
+    body: "These Terms & Conditions govern your use of the Seaone Fintech website and any consultation, enquiry, or loan-facilitation service you request through it. By submitting your details or booking a consultation, you agree to these terms.",
   },
   {
     title: "Our Role",
-    body: "Seaone Synergy (operated by Seaone Synergy) acts as a loan advisory and facilitation service. We connect you with partner banks and NBFCs and assist with documentation and guidance. We are not a bank or lender, and final loan approval, interest rates, and terms are decided solely by the respective financial institution.",
+    body: "Seaone Fintech (operated by Seaone Fintech) acts as a loan advisory and facilitation service. We connect you with partner banks and NBFCs and assist with documentation and guidance. We are not a bank or lender, and final loan approval, interest rates, and terms are decided solely by the respective financial institution.",
   },
   {
     title: "Eligibility",
@@ -37,7 +37,7 @@ const SECTIONS = [
   },
   {
     title: "Limitation of Liability",
-    body: "Seaone Synergy and Seaone Synergy are not liable for any loss arising from a lender's decision, delay, or change in loan terms. Our role is limited to advisory and facilitation; the lending relationship is solely between you and the financial institution.",
+    body: "Seaone Fintech and Seaone Fintech are not liable for any loss arising from a lender's decision, delay, or change in loan terms. Our role is limited to advisory and facilitation; the lending relationship is solely between you and the financial institution.",
   },
   {
     title: "Changes to These Terms",
@@ -122,7 +122,7 @@ export default function TermsModal({ isOpen, onClose }: TermsModalProps) {
         >
           <p className="text-sm text-muted leading-relaxed">
             Please read these Terms &amp; Conditions carefully before using the
-            Seaone Synergy website or submitting any enquiry, consultation
+            Seaone Fintech website or submitting any enquiry, consultation
             request, or loan application through our platform.
           </p>
 
@@ -142,10 +142,10 @@ export default function TermsModal({ isOpen, onClose }: TermsModalProps) {
             <p className="text-sm text-muted leading-relaxed">
               Questions about these terms? Reach us at{" "}
               <a
-                href="mailto:contact@seaonesynergy.com"
+                href="mailto:contact@seaonefintech.com"
                 className="text-brand font-medium hover:underline"
               >
-                contact@seaonesynergy.com
+                contact@seaonefintech.com
               </a>{" "}
               or call{" "}
               <a

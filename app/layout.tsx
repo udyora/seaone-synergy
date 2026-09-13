@@ -11,11 +11,11 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "Seaone Synergy | Hassle-Free Loans & Financial Solutions",
-    template: "%s | Seaone Synergy",
+    default: "Seaone Fintech | Hassle-Free Loans & Financial Solutions",
+    template: "%s | Seaone Fintech",
   },
   description:
-    "Get low-interest Home Loans, Business Capital, Overdraft (OD/CC), Loan Against Property, NPA & OTS Funding, and Govt Subsidies with fast approval at Seaone Synergy Pvt Ltd.",
+    "Get low-interest Home Loans, Business Capital, Overdraft (OD/CC), Loan Against Property, NPA & OTS Funding, and Govt Subsidies with fast approval at Seaone Fintech Pvt Ltd.",
   keywords: [
     "Business Loans Faridabad",
     "Home Loan Provider in Faridabad",
@@ -28,33 +28,33 @@ export const metadata: Metadata = {
     "NPA and OTS Funding Solutions",
     "Stressed Asset Finance",
     "Bridge Finance India",
-    "Seaone Synergy",
-    "Seaone Synergy Pvt Ltd",
+    "Seaone Fintech",
+    "Seaone Fintech Pvt Ltd",
     "Best Loan Agency in Faridabad",
     "Financial Consultants Ajronda Chowk Faridabad",
     "DSA Partner Faridabad",
     "Low Interest Loans Haryana",
   ],
-  authors: [{ name: "Seaone Synergy Pvt Ltd" }],
-  creator: "Seaone Synergy Pvt Ltd",
-  publisher: "Seaone Synergy Pvt Ltd",
-  metadataBase: new URL("https://seaonesynergy.com"),
+  authors: [{ name: "Seaone Fintech Pvt Ltd" }],
+  creator: "Seaone Fintech Pvt Ltd",
+  publisher: "Seaone Fintech Pvt Ltd",
+  metadataBase: new URL("https://seaonefintech.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title:
-      "Seaone Synergy | Trusted Financial Partner for Business & Home Loans",
+      "Seaone Fintech | Trusted Financial Partner for Business & Home Loans",
     description:
       "Fast approvals, low interest rates, and expert financial assistance. Access top Bank & NBFC loan offers with 100% transparent processing.",
-    url: "https://seaonesynergy.com",
-    siteName: "Seaone Synergy",
+    url: "https://seaonefintech.com",
+    siteName: "Seaone Fintech",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Seaone Synergy | Fast & Hassle-Free Loans",
+    title: "Seaone Fintech | Fast & Hassle-Free Loans",
     description:
       "Get Home Loans, Business Capital, and OD/CC limits with custom repayment plans.",
   },

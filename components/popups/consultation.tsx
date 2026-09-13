@@ -361,9 +361,9 @@ export default function ConsultationModal({
               shortly.
             </p>
           </div>
-          <div className="shrink-0">
+          <div className="shrink-0 bg-white border overflow-hidden rounded-md size-13 border-black/60">
             <Image
-              src="/logo.svg"
+              src="/border-logo.png"
               alt="Logo"
               width={52}
               height={52}

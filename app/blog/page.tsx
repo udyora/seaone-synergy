@@ -13,7 +13,7 @@ export default function BlogListingPage() {
           badgeText="Insights & Knowledge"
           badgeIcon={TrendingUp}
           title="Financial Advisory Corner"
-          subtitle="Read financial insights, tips, and loan strategies compiled by senior advisors at Seaone Synergy, Faridabad."
+          subtitle="Read financial insights, tips, and loan strategies compiled by senior advisors at Seaone Fintech, Faridabad."
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {BLOG_POSTS.map((post) => (
