@@ -112,7 +112,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-1/60 pt-16 relative overflow-hidden">
       <div className="container flex max-lg:flex-col max-xl:flex-wrap max-xl:justify-center gap-6 pb-16 text-center justify-between lg:text-left">
-        <div className="max-lg:mx-auto flex w-[366px] sm:h-[366px] flex-col items-center lg:items-start justify-center">
+        <div className="max-lg:mx-auto flex w-full max-w-[366px] sm:h-[366px] flex-col items-center lg:items-start justify-center">
           <a
             href="/#hero"
             className="border h-full flex items-center w-full p-18 bg-white border-gray-2 rounded-md"
@@ -126,7 +126,7 @@ export default function Footer() {
             />
           </a>
         </div>
-        <div className="flex flex-col border border-gray-2 p-4 rounded-md lg:flex-row justify-center lg:justify-start max-lg:mx-auto w-[366px] gap-12 lg:gap-16">
+        <div className="flex flex-col border border-gray-2 p-4 rounded-md lg:flex-row justify-center lg:justify-start max-lg:mx-auto w-full max-w-[366px] gap-12 lg:gap-16">
           <div className="lg:col-span-4 space-y-8 flex flex-col items-center w-full lg:items-start justify-center lg:justify-start mx-auto lg:mx-0">
             <div className="space-y-2 w-full flex flex-col items-center lg:items-start">
               <p className="text-base text-muted text-center mb-6">
@@ -223,7 +223,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="border border-gray-2 max-lg:mx-auto w-[366px] sm:h-[366px] gap-2 bg-gray-1 p-6 rounded-md">
+        <div className="border border-gray-2 max-lg:mx-auto w-full max-w-[366px] sm:h-[366px] gap-2 bg-gray-1 p-6 rounded-md">
           <h4
             className={` text-base w-full text-center border-b border-brand font-bold text-foreground tracking-wide`}
           >

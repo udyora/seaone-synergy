@@ -28,7 +28,7 @@ export default function Navbar() {
             className="flex gap-2 items-center text-2xl lg:text-3xl font-extrabold text-slate-900"
           >
             <Image
-              className="w-36 lg:w-43"
+              className="w-31 lg:w-36"
               width={170}
               height={30}
               src={"/logo.svg"}
@@ -63,11 +63,11 @@ export default function Navbar() {
           </div>
           <button
             onClick={() => setIsOpen((prev) => !prev)}
-            className="lg:hidden text-muted hover:text-brand p-2 border bg-[#0190E8]! rounded-lg transition-colors"
+            className="lg:hidden text-muted hover:text-brand p-2 border rounded-lg bg-[#323A7A]! transition-colors"
             aria-label="Toggle menu"
           >
             <svg
-              className="h-5 w-5 stroke-white"
+              className="size-7 stroke-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
