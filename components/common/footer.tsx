@@ -51,10 +51,7 @@ const LINK_SECTIONS = [
         label: "Loan Against Property",
         href: "/products/loan-against-property#product-hero",
       },
-      {
-        label: "Govt Subsidy",
-        href: "/products/govt-subsidy-scheme#product-hero",
-      },
+
       { label: "NPA & OTS Funding", href: "/#products" },
       { label: "Bridge Finance", href: "/#products" },
       { label: "Stressed Asset Finance", href: "/#products" },

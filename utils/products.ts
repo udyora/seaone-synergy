@@ -78,15 +78,6 @@ export const servicesData = [
     img: "/loan-against-property.webp",
   },
   {
-    slug: "govt-subsidy-scheme",
-    title: "Govt Subsidy",
-    desc: "Assistance from government schemes to support eligible businesses.",
-    icon: Landmark,
-    price: "Govt Verified",
-    counter: "+920 Grants",
-    img: "/govt-subsidy.webp",
-  },
-  {
     slug: "npa-ots-funding",
     title: "NPA & OTS Funding",
     desc: "Strategic funding enabling NPA resolution, OTS settlements, efficiently.",
@@ -326,49 +317,6 @@ export const productsData: Record<string, ProductData> = {
     ],
     img: "/loan-against-property.webp",
     accentColor: "var(--color-accent-brown)",
-  },
-  "govt-subsidy-scheme": {
-    slug: "govt-subsidy-scheme",
-    icon: Landmark,
-    badge: "Government Programs",
-    tag: "Govt Subsidy",
-    title: "Government Subsidy",
-    tagline: "Unlock the Benefits of Government Schemes!",
-    heroDesc:
-      "Navigating through the complexities of Government Subsidy can be challenging, but with the right guidance, you can make the most of opportunities available.",
-    about:
-      "As expert consultants, we help individuals and businesses understand, apply for, and benefit from various subsidy schemes, grants, and financial support programs launched by the government. Let us help you unlock the full potential of available government subsidies and grants, making your business or personal goals easier to achieve.",
-    benefitsTitle: "Why Choose Our Consultancy?",
-    benefits: [
-      "Expert Guidance – Consultants well-versed with the latest government schemes",
-      "Seamless Application Process – Full guidance with all documentation requirements met",
-      "Maximized Benefits – Secure maximum benefits from government schemes",
-      "Timely Assistance – Never miss application deadlines",
-      "Customized Solutions – Personalized consultancy for your specific needs",
-    ],
-    extraSections: [
-      {
-        title: "Government Subsidy We Assist With",
-        items: [
-          "Start-Up Subsidies – Financial assistance for new businesses and entrepreneurs",
-          "MSME Subsidy Schemes – Funding support for small and medium enterprises",
-          "Housing Subsidies – Benefits for building, buying, or renovating homes",
-          "Education and Training Grants – Financial assistance for education and skill development",
-          "Agriculture Subsidies – Support for farmers to improve productivity",
-          "Electric Vehicle (EV) Subsidies – Assistance for purchasing electric vehicles",
-        ],
-      },
-    ],
-    whoCanApply: [
-      "Entrepreneurs & Startups",
-      "Small and Medium Enterprises (SMEs)",
-      "Farmers & Agricultural Businesses",
-      "Educational Institutions",
-      "Homebuyers & Builders",
-      "Individuals seeking government support",
-    ],
-    img: "/govt-subsidy.webp",
-    accentColor: "var(--color-accent-mint)",
   },
   "npa-ots-funding": {
     slug: "npa-ots-funding",

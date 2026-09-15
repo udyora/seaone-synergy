@@ -28,7 +28,6 @@ const LOAN_OPTIONS = [
   { value: "business-loan", label: "BUSINESS LOAN" },
   { value: "project-loan", label: "PROJECT LOAN" },
   { value: "loan-against-property", label: "LOAN AGAINST PROPERTY" },
-  { value: "govt-subsidy", label: "GOVT SUBSIDY" },
   { value: "npa-ots-funding", label: "NPA & OTS FUNDING" },
   { value: "bridge-finance", label: "BRIDGE FINANCE" },
   { value: "stressed-asset-finance", label: "STRESSED ASSET FINANCE" },

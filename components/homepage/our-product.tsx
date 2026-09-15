@@ -36,6 +36,7 @@ export default function Services() {
         />
 
         {/* Desktop View */}
+        {/* Desktop View */}
         <div className="hidden xl:block mb-0!">
           <motion.div
             variants={staggerContainer}
@@ -44,14 +45,29 @@ export default function Services() {
             viewport={{ once: true, margin: "-40px" }}
             className="grid grid-cols-4 gap-4"
           >
-            {servicesData.map((srv, idx) => (
-              <ServiceCard
-                key={idx}
-                srv={srv}
-                isSlider={false}
-                onQuickApply={() => handleQuickApply(srv.slug || srv.title)}
-              />
-            ))}
+            {servicesData.map((srv, idx) => {
+              // Check karein agar yeh aakhri row ke items hain (index 8 aur 9)
+              const isLastRow = idx >= 8;
+
+              return (
+                <div
+                  key={idx}
+                  className={`${
+                    isLastRow
+                      ? idx === 8
+                        ? "xl:col-start-2" // 8th item ko 2nd column se start karein
+                        : "xl:col-start-3" // 9th item ko 3rd column par rakhein
+                      : ""
+                  }`}
+                >
+                  <ServiceCard
+                    srv={srv}
+                    isSlider={false}
+                    onQuickApply={() => handleQuickApply(srv.slug || srv.title)}
+                  />
+                </div>
+              );
+            })}
           </motion.div>
         </div>
 

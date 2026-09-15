@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | Seaone Fintech",
   },
   description:
-    "Get low-interest Home Loans, Business Capital, Overdraft (OD/CC), Loan Against Property, NPA & OTS Funding, and Govt Subsidies with fast approval at Seaone Fintech Pvt Ltd.",
+    "Get low-interest Home Loans, Business Capital, Overdraft (OD/CC), Loan Against Property, NPA & OTS Funding with fast approval at Seaone Fintech Pvt Ltd.",
   keywords: [
     "Business Loans Faridabad",
     "Home Loan Provider in Faridabad",
@@ -24,7 +24,6 @@ export const metadata: Metadata = {
     "Overdraft Limit OD CC Facility",
     "Cash Credit Limit",
     "Project Loan Funding",
-    "Govt Subsidy Scheme Loans",
     "NPA and OTS Funding Solutions",
     "Stressed Asset Finance",
     "Bridge Finance India",
