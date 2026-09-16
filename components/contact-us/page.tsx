@@ -19,8 +19,8 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Mail Us",
-    value: "contact@seaonefintech.com",
-    href: "mailto:contact@seaonefintech.com",
+    value: "sales@seaonefintech.com",
+    href: "mailto:sales@seaonefintech.com",
   },
   {
     icon: Phone,
