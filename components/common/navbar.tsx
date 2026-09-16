@@ -22,13 +22,10 @@ export default function Navbar() {
     <div className="sticky container top-4 z-50 w-full px-4">
       {/* Navbar background changed to bg-white and text adjusted for visibility */}
       <nav className="max-w-7xl mx-auto bg-white border rounded-xl border-gray-2/80 shadow-sm transition-all duration-300">
-        <div className="flex items-center justify-between h-20 px-4 sm:px-6">
-          <a
-            href="/#hero"
-            className="flex gap-2 items-center text-2xl lg:text-3xl font-extrabold text-slate-900"
-          >
+        <div className="flex items-center justify-between h-20 px-4">
+          <a href="/#hero">
             <Image
-              className="w-31 lg:w-36"
+              className="w-31 lg:w-35"
               width={170}
               height={30}
               src={"/logo.svg"}
@@ -56,14 +53,14 @@ export default function Navbar() {
             <Button
               onClick={() => setIsModalOpen(true)}
               variant="primary"
-              className="w-full bg-[#0190E8]! flex items-center justify-center gap-1.5"
+              className="w-full h-13! rounded-none! bg-[#00507E]! text-white! flex items-center justify-center gap-1.5"
             >
               Quick Apply
             </Button>
           </div>
           <button
             onClick={() => setIsOpen((prev) => !prev)}
-            className="lg:hidden text-muted hover:text-brand p-2 border rounded-lg bg-[#323A7A]! transition-colors"
+            className="lg:hidden text-muted hover:text-brand p-2 border bg-[#00507E]! transition-colors"
             aria-label="Toggle menu"
           >
             <svg
@@ -119,7 +116,7 @@ export default function Navbar() {
                   setIsModalOpen(true);
                 }}
                 variant="primary"
-                className="w-full mt-2 bg-[#0190E8]! flex items-center justify-center gap-1.5"
+                className="w-full rounded-none! mt-2 bg-[#00507E]! text-white! flex items-center justify-center gap-1.5"
               >
                 Quick Apply
               </Button>

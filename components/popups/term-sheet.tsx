@@ -13,7 +13,7 @@ const SECTIONS = [
   },
   {
     title: "Our Role",
-    body: "Seaone Fintech (operated by Seaone Fintech) acts as a loan advisory and facilitation service. We connect you with partner banks and NBFCs and assist with documentation and guidance. We are not a bank or lender, and final loan approval, interest rates, and terms are decided solely by the respective financial institution.",
+    body: "Seaone Fintech (operated by Seaone Synergy Pvt Ltd ) acts as a loan advisory and facilitation service. We connect you with partner banks and NBFCs and assist with documentation and guidance. We are not a bank or lender, and final loan approval, interest rates, and terms are decided solely by the respective financial institution.",
   },
   {
     title: "Eligibility",

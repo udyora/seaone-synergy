@@ -325,7 +325,7 @@ export default function Footer() {
 
             <p className="border border-gray-2 bg-gray-1 p-3 rounded-md">
               <span className="font-bold underline">
-                @Seaone Fintech Pvt Ltd.
+                Seaone Synergy Pvt Ltd
               </span>{" "}
               All rights reserved.
             </p>
