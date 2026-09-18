@@ -9,7 +9,6 @@ import {
   MessageSquare,
   Mail,
   LogOut,
-  ExternalLink,
   Bell,
   Menu,
   X,

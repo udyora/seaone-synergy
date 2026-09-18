@@ -142,10 +142,10 @@ export default function TermsModal({ isOpen, onClose }: TermsModalProps) {
             <p className="text-sm text-muted leading-relaxed">
               Questions about these terms? Reach us at{" "}
               <a
-                href="mailto:contact@seaonefintech.com"
+                href="mailto:support@seaonefintech.com"
                 className="text-brand font-medium hover:underline"
               >
-                contact@seaonefintech.com
+                support@seaonefintech.com
               </a>{" "}
               or call{" "}
               <a
