@@ -82,15 +82,12 @@ export default function AdminLayout({
           <div className="flex items-center justify-between px-2 py-1">
             <div className="flex items-center gap-3">
               <Image
-                src="/logo.svg"
-                alt="Logo"
-                width={32}
-                height={32}
-                className="w-8 h-8 object-contain"
+                className="w-31 lg:w-35"
+                width={170}
+                height={30}
+                src={"/logo.svg"}
+                alt="logo"
               />
-              <span className="font-bold text-lg tracking-tight text-white">
-                Seaone Fintech
-              </span>
             </div>
             <button
               onClick={() => setMobileMenuOpen(false)}

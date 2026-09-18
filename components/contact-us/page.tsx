@@ -89,7 +89,6 @@ export default function ContactPage() {
                           ? "noopener noreferrer"
                           : undefined,
                       };
-
                 return (
                   <Wrapper
                     key={i}
