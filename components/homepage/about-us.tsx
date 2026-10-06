@@ -26,23 +26,33 @@ export default function About() {
               badgeText="About Us"
               badgeIcon={User2}
               title="Fast, Reliable, and Hassle-Free Loans – Anytime, Anywhere!"
-              subtitle="Welcome to Seaone Fintech, your trusted partner in financial solutions. We specialize in providing hassle-free loans for every need, including personal loans, business loans, home loans, project loans, and more."
+              subtitle="Welcome to Seaone Fintech"
               alignment="left"
             />
 
             <p className="text-muted font-light leading-relaxed text-sm sm:text-base">
-              With a commitment to transparency, reliability, and customer
-              satisfaction, we help individuals and businesses secure the best
-              loan options with quick approvals, minimal documentation, and
-              competitive interest rates. Our team of financial experts guides
-              you through every step, ensuring a smooth and stress-free
-              borrowing experience.
+              Seaone Fintech is the financial solutions brand of Seaone Synergy
+              Pvt Ltd, created to make financing simple, accessible, and
+              hassle-free for individuals, entrepreneurs, and businesses.
             </p>
             <p className="text-muted font-light leading-relaxed text-sm sm:text-base">
-              At Seaone Fintech Pvt Ltd. we believe in making finance simple and
-              accessible. Whether you need funds for personal expenses, business
-              growth, or a dream home, we are here to support your financial
-              journey.
+              Through Seaone Fintech, we offer assistance across a wide range of
+              financial requirements, including Personal Loans, Business Loans,
+              Home Loans, Project Loans, Loan Against Property, Working Capital
+              Finance, and other customized funding solutions.
+            </p>
+            <p className="text-muted font-light leading-relaxed text-sm sm:text-base">
+              With a focus on transparency, reliability, and customer
+              satisfaction, our team helps clients identify suitable financing
+              options and guides them through the process—from understanding
+              requirements and documentation to application and approval.
+            </p>
+            <p className="text-muted font-light leading-relaxed text-sm sm:text-base">
+              At Seaone Fintech, we believe that accessing finance should be
+              simple, transparent, and stress-free. Whether you are looking to
+              meet a personal financial requirement, expand your business,
+              purchase a property, or fund a new project, Seaone Fintech is here
+              to support your financial journey.
             </p>
           </motion.div>
           <motion.div

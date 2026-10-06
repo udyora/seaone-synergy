@@ -25,7 +25,7 @@ const SECTIONS = [
   },
   {
     title: "Your Choices",
-    body: "You can unsubscribe from our newsletter at any time, and you may request that we update or delete your personal information by writing to us at contact@seaonefintech.com.",
+    body: "You can unsubscribe from our newsletter at any time, and you may request that we update or delete your personal information by writing to us at support@seaonefintech.com.",
   },
   {
     title: "Cookies",
