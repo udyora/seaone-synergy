@@ -29,7 +29,6 @@ export default function About() {
               subtitle="Welcome to Seaone Fintech"
               alignment="left"
             />
-
             <p className="text-muted font-light leading-relaxed text-sm sm:text-base">
               Seaone Fintech is the financial solutions brand of Seaone Synergy
               Pvt Ltd, created to make financing simple, accessible, and
@@ -44,7 +43,7 @@ export default function About() {
             <p className="text-muted font-light leading-relaxed text-sm sm:text-base">
               With a focus on transparency, reliability, and customer
               satisfaction, our team helps clients identify suitable financing
-              options and guides them through the process—from understanding
+              options and guides them through the process - from understanding
               requirements and documentation to application and approval.
             </p>
             <p className="text-muted font-light leading-relaxed text-sm sm:text-base">
